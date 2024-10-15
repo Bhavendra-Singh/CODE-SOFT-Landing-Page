@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Platform</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            padding: 20px;
+        }
+        .video-section, .notes-section {
+            margin-bottom: 40px;
+        }
+        .video-item {
+            margin-bottom: 20px;
+        }
+        .note-item {
+            background-color: white;
+            padding: 10px;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+        }
+        .note-item button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .note-content {
+            display: none;
+            margin-top: 10px;
+        }
+        footer {
+            //background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome Aspirants</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                
+                <li><a href="#notes">Notes</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+     <div class="container">
+        <section id="home">
+            <h2>Home</h2>
+            <section id="home">
+    <h2>Welcome to the Ultimate UPSC Preparation Hub</h2>
+    <p>Welcome to your one-stop destination for all things related to UPSC preparation. Whether you're just starting your journey or are deep into your studies, our platform is here to support and guide you every step of the way.</p>
+
+    <h3>Your Path to Success Starts Here</h3>
+    <p>The Union Public Service Commission (UPSC) exams are a gateway to some of the most prestigious positions in the Indian government. We understand the challenges and demands of preparing for these exams, and we are dedicated to providing you with the best resources and tools to help you succeed.</p>
+
+    <h3>What We Offer</h3>
+    <ul>
+        <li><strong>Comprehensive Study Materials:</strong> Access a wide range of study materials, including detailed notes, summaries, and expert articles to enhance your understanding of various subjects.</li>
+        <li><strong>High-Quality Video Lectures:</strong> Watch in-depth video lectures covering key topics and concepts to supplement your learning and clarify doubts.</li>
+        <li><strong>Practice Tests and Mock Exams:</strong> Test your knowledge and improve your exam skills with our collection of practice tests and mock exams designed to simulate the real UPSC test environment.</li>
+        <li><strong>Current Affairs Updates:</strong> Stay updated with the latest news and current affairs, which are crucial for the General Studies papers and interview preparation.</li>
+        <li><strong>Community Support:</strong> Connect with fellow aspirants through our forums and discussion boards. Share your experiences, ask questions, and find encouragement from others on the same journey.</li>
+    </ul>
+
+    <h3>Get Started</h3>
+    <p>Explore our resources, join our community, and start your preparation with confidence. Remember, every great achievement begins with the decision to try. Your commitment and hard work will pave the way to success.</p>
+
+    <p>Let’s embark on this journey together and make your UPSC preparation as effective and efficient as possible. Good luck, and stay focused!</p>
+</section>
+
+        </section>
+        <div section id="about">
+            <h2>About</h2>
+            <p>The Union Public Service Commission (UPSC) is one of India's premier recruitment agencies, responsible for conducting prestigious examinations such as the Civil Services Examination (CSE), Indian Forest Service (IFS) Examination, and more. Preparing for these examinations is a rigorous and challenging journey that requires dedication, strategic planning, and perseverance.</p>
+</p>
+        </section>
+    
+    
+        
+        <section id="notes" class="notes-section">
+            <h2>Study Notes</h2>
+            <div class="note-item">
+                <h3>NCERT Books</h3>
+                <button onclick="toggleContent('note1')">Show/Hide </button>
+                <div id="note1" class="note-content">
+                    <p>NCERT books play a crucial role in UPSC preparation for several reasons:
+
+Foundational Knowledge: NCERT textbooks cover the basics of various subjects, including history, geography, polity, and economics, providing a solid foundation that is essential for advanced study.
+
+Simplified Language: The language used in NCERT books is straightforward and easy to understand, making complex topics more accessible, especially for beginners.
+
+Concept Clarity: These books focus on fundamental concepts, ensuring that aspirants grasp essential principles before delving into more complex materials.
+
+Comprehensive Coverage: NCERT books systematically cover the syllabus prescribed by the UPSC, ensuring that students don’t miss key topics.
+
+Reliable Resource: Being government publications, NCERT books are considered credible and trustworthy, making them a reliable source for factual information.
+
+Exam Pattern Familiarity: The content is often aligned with the UPSC exam pattern, helping aspirants understand how to approach questions effectively.
+
+Supplementary Material: While they serve as primary resources, NCERT books can also complement advanced materials and current affairs, bridging the gap between foundational knowledge and contemporary issues.
+
+Cost-effective: NCERT books are widely available and affordable, making them accessible for all students, irrespective of their financial background.</p>
+                </div>
+            </div>
+            <div class="note-item">
+                <h3>Newspaper</h3>
+                <button onclick="toggleContent('note2')">Show/Hide </button>
+                <div id="note2" class="note-content">
+                    <p>Newspapers are vital for UPSC preparation for several reasons:
+
+Current Affairs: Newspapers provide up-to-date information on national and international events, which is crucial for the UPSC exam, particularly in the General Studies papers and the interview.
+
+Understanding Context: Regular reading helps aspirants understand the context and implications of current events, enhancing analytical skills essential for answering subjective questions.
+
+Linking Topics: Newspapers often cover various subjects—politics, economy, environment, and society—allowing candidates to see connections between different areas of the syllabus.
+
+Improving Language Skills: Reading newspapers enhances vocabulary and comprehension skills, which are beneficial for both the written exam and the interview.
+
+Issue Identification: Regular coverage of issues like governance, health, education, and socio-economic challenges helps candidates identify and analyze important topics for essays and GS papers.
+
+Opinion Formation: Editorials and opinion pieces encourage critical thinking and help aspirants form well-rounded views on various issues, which is vital for the interview stage.
+
+Preparation for Essay Paper: Newspapers can provide inspiration and data for essay topics, making it easier to formulate arguments and examples.
+
+Familiarity with Terminology: Regular exposure to news helps candidates become familiar with important terms and concepts used in governance, economics, and other relevant fields.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For inquiries, please email us at <a href="mailto:bhavendra200@gmail.com">bhavendra200@gmail.com</a></p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Educational Platform. All rights reserved.</p>
+    </footer>
+
+    <script>
+        function toggleContent(id) {
+            const content = document.getElementById(id);
+            if (content.style.display === "none") {
+                content.style.display = "block";
+            } else {
+                content.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
